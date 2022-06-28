@@ -63,7 +63,8 @@ h3{
     color: #FFF;
     border: 0;
     outline: none;
-
+    border-radius: 10px
+    ;
 }
 button{
     width:90px;
