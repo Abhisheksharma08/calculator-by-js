@@ -21,14 +21,15 @@ body {
 
 .toggle {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
     
 }
-.right{
+/* .right{
     display: flex;
     justify-content: flex-end;
-}
+} */
 
 .toggle p {
     margin: 0 5px;
@@ -39,12 +40,12 @@ h3{
     color: #FFF;
 }
 
-.control p {
+/* .control p {
     float: right;
     margin-right: 70px; 
     color:#FFF
 
-}
+} */
 
 .screen {
     width: 450px;
@@ -65,6 +66,7 @@ h3{
     outline: none;
     border-radius: 10px
     ;
+    padding-right: 5px;
 }
 button{
     width:90px;
@@ -106,7 +108,7 @@ button{
     background-color: hsl(6, 63%, 50%);
     box-shadow: 0px 3px 0px 0px hsl(6, 70%, 34%)
 }
-.control p::before{
+/* .control p::before{
     content: "";
     width: 11px;
     height:11px;
@@ -115,8 +117,8 @@ button{
     top: 1px;
     right: -52px;
     border-radius: 30px;
-    z-index: 1;
-}
+    z-index: 1;} */
+
 /* .del{
     background-color: hsl(6, 63%, 50%);
     box-shadow: 0px 3px 0px 0px hsl(6, 70%, 34%)
